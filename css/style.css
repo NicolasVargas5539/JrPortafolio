@@ -128,7 +128,7 @@ body {
 /* ----------------------------- */
 
 .presentacion {
-    background-image: url(../img/carousel1.jpg);
+    background-image: url(../img/Fondo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -202,7 +202,7 @@ body {
     cursor: pointer;
 }
 .carousel-item {
-    transition: .8s !important;
+    transition: .5s !important;
 }
 
 .carousel__lista .carrucel__fila.pulsado {
@@ -253,7 +253,7 @@ body {
 
 .footer__mapa{
     /* margin: auto; */
-    height: 60%;
+    height: 50%;
     width: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.829);
@@ -315,4 +315,42 @@ footer .icons, footer h3, footer h6{
     .presentacion__titulo{
         font-size: 20px;
     }
+}
+
+
+/* Animaciones */
+.progress-bar__90{
+    animation: aumento90 10s forwards;
+}
+@keyframes aumento90{
+    0%{width: 0;}
+    100%{width: 90%}
+}
+.progress-bar__80{
+    animation: aumento80 10s forwards;
+}
+@keyframes aumento80{
+    0%{width: 0;}
+    100%{width: 80%}
+}
+.progress-bar__70{
+    animation: aumento70 10s forwards;
+}
+@keyframes aumento70{
+    0%{width: 0;}
+    100%{width: 70%}
+}
+.progress-bar__60{
+    animation: aumento60 10s forwards;
+}
+@keyframes aumento60{
+    0%{width: 0;}
+    100%{width: 60%}
+}
+.progress-bar__50{
+    animation: aumento50 10s forwards;
+}
+@keyframes aumento50{
+    0%{width: 0;}
+    100%{width: 50%}
 }
