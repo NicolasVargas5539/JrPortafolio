@@ -34,7 +34,6 @@ body {
     margin: 10px 10px 10px 0;
     transition: 0.7s;
 }
-
 .icons:hover {
     color: var(--grey);
     margin: 10px 10px 10px 0;
@@ -44,6 +43,12 @@ body {
 }
 .colorBlack{
     color: var(--black);
+}
+.texto__centrado {
+    text-align: center;
+}
+.texto__justificado{
+    text-align: justify;
 }
 
 
@@ -56,9 +61,7 @@ body {
     color: var(--grey);
 }
 
-.texto__centrado {
-    text-align: center;
-}
+
 .navbar {
     background-color: var(--white);
     transition: 0.7s;
@@ -128,7 +131,7 @@ body {
 /* ----------------------------- */
 
 .presentacion {
-    background-image: url(../img/Fondo.jpg);
+    background-image: url(../img/ProgramadorJr.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -281,23 +284,22 @@ footer .icons, footer h3, footer h6{
         padding-top: 50px;
     }
     .presentacion__contenido {
-        /* padding-top: 80px; */
         background-position-y: 5px;
         height: 40rem;
-    }
-    .carousel-inner{
-        /* height: 70vh; */
     }
 }
 
 @media(max-width:992px) {
+
+    .presentacion{
+        height: 17rem;
+    }
 
     .presentacion,
     .presentacion__contenido {
         font-weight: 200;
         /* padding-top: 66px; */
         background-position-y: 65px;
-        height: 15rem;
     }
     .carrucel__contFila {
         width: 90%;
