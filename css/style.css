@@ -205,7 +205,7 @@ body {
     cursor: pointer;
 }
 .carousel-item {
-    transition: .5s !important;
+    transition: 1s !important;
 }
 
 .carousel__lista .carrucel__fila.pulsado {
