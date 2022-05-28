@@ -156,11 +156,12 @@ body {
     transition: 1s !important;
 }
 
-.card-body{
+.card-body {
     background-color: #ebebeb;
     box-shadow: 0 10px 18px rgb(167, 167, 167);
 }
-.carousel-caption{
+
+.carousel-caption {
     text-shadow: 0 5px 4px var(--black);
 }
 
@@ -261,6 +262,7 @@ footer h6 {
 
 @media(max-width:1440px) {
     .presentacion {
+        background-position-y: 65px;
         height: 36rem;
     }
 
@@ -269,6 +271,7 @@ footer h6 {
 @media(max-width:1024px) {
     .presentacion {
         height: 27rem;
+        background-position-y: 65px;
     }
 
     .footer-row {
@@ -279,7 +282,7 @@ footer h6 {
 @media(max-width:992px) {
 
     .presentacion {
-        height: 25rem;
+        height: 28rem;
         background-position-y: 65px;
     }
 
