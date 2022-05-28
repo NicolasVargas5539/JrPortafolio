@@ -160,6 +160,9 @@ body {
     background-color: #ebebeb;
     box-shadow: 0 10px 18px rgb(167, 167, 167);
 }
+.carousel-caption{
+    text-shadow: 0 5px 4px var(--black);
+}
 
 /* carucel-modal */
 .modal {
