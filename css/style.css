@@ -126,7 +126,7 @@ body {
 /* ----------------------------- */
 
 .presentacion {
-    background-image: url(../img/ProgramadorJr.jpg);
+    background-image: url(../img/ProgramadorJr.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -211,7 +211,6 @@ body {
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.829);
 }
-
 footer .icons,
 footer h3,
 footer h6 {
@@ -245,12 +244,16 @@ footer h6 {
         height: 43rem;
     }
 }
+@media(max-width:4000px) {
+    .presentacion {
+        height: 80rem;
+    }
+}
 
 @media(max-width:2560px) {
     .presentacion {
-        height: 65rem;
+        height: 60rem;
     }
-
 }
 
 @media(max-width:1920px) {
@@ -263,14 +266,14 @@ footer h6 {
 @media(max-width:1440px) {
     .presentacion {
         background-position-y: 65px;
-        height: 36rem;
+        height: 40rem;
     }
 
 }
 
 @media(max-width:1024px) {
     .presentacion {
-        height: 27rem;
+        height: 29rem;
         background-position-y: 65px;
     }
 

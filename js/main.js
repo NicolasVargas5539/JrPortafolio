@@ -2,7 +2,6 @@ window.addEventListener("scroll", function () { //Detecnta el scroll y realiza l
     let header = document.querySelector("nav");
     header.classList.toggle("nav__abajo", window.scrollY > 0); //cada que vajemos un poco se realizara una clase al header
 })
-// The location of google
 
 function initMap() {
     const cord = { lat:4.6416877, lng: -74.1520707 };

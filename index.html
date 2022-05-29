@@ -21,7 +21,7 @@
     <header>
         <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container navbar__center">
-                <a class="navbar-brand" href="index.html">PROGRAMADOR WEB JR</a>
+                <a class="navbar-brand" href="#">PROGRAMADOR WEB JR</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -50,17 +50,20 @@
     </header>
     <section class="presentacion">
         <div class="container-fluid presentacion__fondo">
+            <div class="vacio"></div>
         </div>
     </section>
-    <section class="aptitudes" id="Conocimientos">
-        <div class="container mt-4">
+    <br id="Conocimientos">
+    <section class="aptitudes">
+        <br>
+        <div class="container">
             <h2 class="text-center mb-4">Habilidades y conocimientos</h2>
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-sm-10">
                     <ul>
                         <li class="aptitudes__lista">
                             <div class="row">
-                                <div class="col-4 aptitudes__texto"><i class="fa-brands fa-html5 pe-3"></i><b
+                                <div class="col-4 te aptitudes__texto"><i class="fa-brands fa-html5 pe-3"></i><b
                                         class="aptitudes__texto">HTML</b></div>
                                 <div class="col-7">
                                     <div class="progress mb-4">
@@ -150,7 +153,7 @@
                             <div class="row">
                                 <div class="col-4 aptitudes__texto  "><i
                                         class="fa-brands fa-wordpress pe-3"></i><b>WordPress</b></div>
-                                <div class="col-7">
+                                <div class="col-7" id="Proyectos">
                                     <div class="progress mb-4">
                                         <div class="progress-bar progress-bar__70 aptitudes__barra">
                                         </div>
@@ -174,7 +177,8 @@
                     <div class="row justify-content-center">
                         <div class="col-4 text-center">
                             <h4>Descargar CV.</h4>
-                            <a href="Docs/CV_NicolasVargas.pdf" target="_blank"><i class="fa-solid fa-file-pdf fa-3x icons"></i></a>
+                            <a href="Docs/Nicolas Vargas (CV).pdf" target="_blank"><i
+                                    class="fa-solid fa-file-pdf fa-3x icons mb-4"></i></a>
                         </div>
                     </div>
                 </div>
@@ -504,7 +508,26 @@
                     <div class="footer__mapa pb-4" id="map"></div>
                 </div>
                 <div class="col-sm-10 col-xl-6 pt-2">
-                    <div class="row footer-row">
+                    <form class="footer-row" action="" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label colorAzure">Nombre Completo</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nombres">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label colorAzure">Correo Electronico</label>
+                            <input type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp" placeholder="ejemplo@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="mb-2 colorAzure">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <div class="d-grid gap-2 mb-4">
+                            <button class="btn btn-primary" type="submit" value="send">Enviar</button>
+                        </div>
+                    </form>
+
+                    <!--                   <div class="row footer-row">
                         <div class="col-sm-12 col-xl-6">
                             <div class="mb-2">
                                 <label for="" class="mb-2 colorAzure">Nombres</label>
@@ -531,7 +554,7 @@
                         <div class="d-grid gap-2 mb-4">
                             <button class="btn btn-primary" type="button">Enviar</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

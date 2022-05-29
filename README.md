@@ -1,3 +1,3 @@
 # JrPortafolio
-#Este portafolio esta realizado con Html, Css, jv, Bootstrap y con uso de algunas apis, el portafolio el diseño es responsivo y adaptable a celulares, computadores y tabletas. 
+#Este portafolio esta realizado principalmente con Html y Bootstrap 5, añadiendole animaciones con css, algunas funcinalidades con javaScript, el portafolio el diseño es responsivo y adaptable a celulares, computadores y tabletas. 
 
