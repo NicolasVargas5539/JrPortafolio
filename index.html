@@ -25,7 +25,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar__icon"><i class="fa-solid fa-bars fa-1x"></i></span>
+                    <span class="navbar__icon"><i class="fa-solid fa-bars fa-1x navbar-ambur"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -35,7 +35,7 @@
                         <a class="nav-link ms-2" href="#Contacto">CONTACTAME</a>
                     </div>
                 </div>
-                <div>
+                <div class="navbar-logos">
                     <a href="https://github.com/NicolasVargas5539" target="_blank"><i
                             class="fa-brands fa-github-square fa-2x icons nav__logos"></i></a>
                     <a href="https://www.facebook.com/NicolassVargas/" target="_blank"><i
@@ -86,17 +86,6 @@
                         <li class="aptitudes__lista">
                             <div class="row">
                                 <div class="col-4 aptitudes__texto"><i
-                                        class="fa-brands fa-bootstrap pe-3"></i><b>Boostrap 5</b></div>
-                                <div class="col-7">
-                                    <div class="progress mb-4">
-                                        <div class="progress-bar progress-bar__90 aptitudes__barra"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="aptitudes__lista">
-                            <div class="row">
-                                <div class="col-4 aptitudes__texto"><i
                                         class="fa-brands fa-js-square pe-3"></i><b>JavaScript</b></div>
                                 <div class="col-7">
                                     <div class="progress mb-4">
@@ -108,11 +97,10 @@
                         </li>
                         <li class="aptitudes__lista">
                             <div class="row">
-                                <div class="col-4 aptitudes__texto"><i class="fa-brands fa-java pe-3"></i><b>Java</b>
-                                </div>
+                                <div class="col-4 aptitudes__texto"><img src="img/typescript.svg" class="aptitudes__icon "><b>TypeScript</b></div>
                                 <div class="col-7">
                                     <div class="progress mb-4">
-                                        <div class="progress-bar progress-bar__60 aptitudes__barra"></div>
+                                        <div class="progress-bar progress-bar__70 aptitudes__barra"></div>
                                     </div>
                                 </div>
                             </div>
@@ -120,20 +108,41 @@
                         <li class="aptitudes__lista">
                             <div class="row">
                                 <div class="col-4 aptitudes__texto"><i
-                                        class="fa-brands fa-python pe-3"></i><b>Python</b></div>
+                                        class="fa-brands fa-bootstrap pe-3"></i><b>Boostrap 5</b></div>
                                 <div class="col-7">
                                     <div class="progress mb-4">
-                                        <div class="progress-bar progress-bar__60 aptitudes__barra"></div>
+                                        <div class="progress-bar progress-bar__90 aptitudes__barra"></div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li class="aptitudes__lista">
                             <div class="row">
-                                <div class="col-4 aptitudes__texto"><b class="fa-brands pe-3">C#</b><b>C Sharp</b></div>
+                                <div class="col-4 aptitudes__texto"><i class="fa-brands fa-react pe-3"></i><b>React</b></div>
+                                <div class="col-7">
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar progress-bar__20 aptitudes__barra"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aptitudes__lista">
+                            <div class="row">
+                                <div class="col-4 aptitudes__texto"><i class="fa-brands fa-angular pe-3"></i><b>Angular</b>
+                                </div>
                                 <div class="col-7">
                                     <div class="progress mb-4">
                                         <div class="progress-bar progress-bar__50 aptitudes__barra"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aptitudes__lista">
+                            <div class="row">
+                                <div class="col-4 aptitudes__texto"><i class="fa-brands fa-figma pe-3"></i><b>Figma</b></div>
+                                <div class="col-7">
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar progress-bar__70 aptitudes__barra"></div>
                                     </div>
                                 </div>
                             </div>
@@ -144,19 +153,7 @@
                                 </div>
                                 <div class="col-7">
                                     <div class="progress mb-4">
-                                        <div class="progress-bar progress-bar__80 aptitudes__barra"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="aptitudes__lista">
-                            <div class="row">
-                                <div class="col-4 aptitudes__texto  "><i
-                                        class="fa-brands fa-wordpress pe-3"></i><b>WordPress</b></div>
-                                <div class="col-7" id="Proyectos">
-                                    <div class="progress mb-4">
-                                        <div class="progress-bar progress-bar__70 aptitudes__barra">
-                                        </div>
+                                        <div class="progress-bar progress-bar__80 aptitudes__barra" id="Proyectos"></div>
                                     </div>
                                 </div>
                             </div>
@@ -166,13 +163,12 @@
                 <div class="col-xl-6 col-sm-10 align-self-center">
                     <h3 class="text-center">Descripción</h3>
                     <p class="texto__justificado">Programador Jr enfocado en el desarrollo front-end con conocimientos
-                        en el lenguaje de marcado de
-                        hipertexto HTML 5 y hojas de estilo en cascada CSS complementandolo de con un alto conocimiento
+                        en el lenguaje de marcado de hipertexto HTML 5 y hojas de estilo en cascada CSS complementandolo de con un alto conocimiento
                         en Bootstrap 5, cuento con conocimientos en lenguajes de programación como JavaScript, Java,
                         Python C#, este último enfocado principalmente en creación de juegos por UNITY, de igual forma
                         cuento con conocimientos y experiencia en bases de datos Oracle con el lenguaje SQL, también
                         cuento con conocimientos en el CMS Wordpress y maquetado en el mismo y actualmente me encuentro
-                        aprendiendo a utilizar el frameworks de Angular.</p>
+                        aprendiendo a utilizar el frameworks de React.</p>
                     <br>
                     <div class="row justify-content-center">
                         <div class="col-4 text-center">
@@ -483,10 +479,6 @@
                         cada vez más mis habilidades en programación, por este motivo también soy una persona bastante
                         autodidacta y responsable.
                     </p>
-                    <h3>Gustos</h3>
-                    <p>Algunos de mis gustos son la lectura, principalmente libros de aventura o misticismo. Los
-                        videojuegos, Viajar y conocer nuevos lugares, personas y culturas y me apasiona la tecnología,
-                        este último dirigido al ensamble de computadores con componentes de alta gama.</p>
                 </div>
             </div>
         </div>

@@ -94,6 +94,10 @@ body {
     color: var(--grey) !important;
 }
 
+.navbar-toggler{
+    color: rgba(0, 0, 0, 0);
+}
+
 .nav__abajo .navbar-brand {
     color: var(--white) !important;
     transition: 0.7s !important;
@@ -145,6 +149,10 @@ body {
 .aptitudes__texto {
     font-size: 13px;
     padding-right: 0 !important;
+}
+.aptitudes__icon{
+    width:15px ;
+    margin-right: 12px;
 }
 
 /* carousel */
@@ -198,7 +206,6 @@ body {
 .sobreMi__foto {
     box-shadow: 0 10px 15px var(--black);
 }
-
 /* Footer */
 .footer {
     background-color: rgb(43, 43, 43);
@@ -295,14 +302,14 @@ footer h6 {
     }
 
     .nav__logos {
-        color: rgba(255, 255, 255, 0);
+        /* color: rgb(255, 255, 255); */
         visibility: hidden;
         position: absolute;
         transition: none;
     }
-
-    .navbar__center {
-        justify-content: center !important;
+    .navbar-logos{
+        position: absolute;
+        /* transition: none; */
     }
 
 }
@@ -395,5 +402,19 @@ footer h6 {
 
     100% {
         width: 50%
+    }
+}
+
+.progress-bar__20 {
+    animation: aumento20 10s forwards;
+}
+
+@keyframes aumento20 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20%
     }
 }
